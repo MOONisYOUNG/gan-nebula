@@ -35,6 +35,7 @@
 * MNIST GAN 코드 자료 참고 : 모두의 딥러닝 (조태호 지음, 길벗 출판사) 
 * 얼굴 생성 GAN 코드 참고 : https://velog.io/@wo7864/DCGAN-%EC%BD%94%EB%93%9C%EB%A5%BC-%ED%86%B5%ED%95%9C-%EC%9D%B4%ED%95%B4
 * Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks 논문 : https://arxiv.org/abs/1511.06434
+* Generative Adversarial Networks 논문 : https://arxiv.org/abs/1406.2661 
 
 ## ✔️ 차후 할 일
 * DCGAN 발전 형태 논문 읽기 및 구현하기
