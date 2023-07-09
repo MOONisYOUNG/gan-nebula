@@ -22,10 +22,10 @@
 <img src="https://github.com/MOONisYOUNG/GAN_Nebula/assets/87643414/1f269050-c399-439c-a37d-989f909dfa70" width="64" height="64"/>
 <img src="https://github.com/MOONisYOUNG/GAN_Nebula/assets/87643414/013a1d2f-3748-4223-bcaf-5a459fd883f0" width="64" height="64"/>
 
-## 🔹 결과 예시
+## 🔹 최종 결과
 ![image](https://github.com/MOONisYOUNG/GAN_Nebula/assets/87643414/b003663a-73ce-4e4b-8018-9cd01b572000)
 
-## 🙈 프로젝트 난관 극복 방식 
+## 🙈 프로젝트 난관 극복 방식 (+ 실패 이미지 포함)
 * 기존 흑백 MNIST 코드를 변형해서 성운 이미지를 생성하면 이상한 이미지를 생성했음. (동묘 구제룩 패턴...?)
 ![image](https://github.com/MOONisYOUNG/GAN_Nebula/assets/87643414/b7518747-96ca-4a4d-a12c-8b7f0190919e)
 * 위와 같은 현상을 해결하기 위해서 MNIST보다 복잡한 이미지(ex. 얼굴 등)를 적용한 코드 예제를 찾게 되었음.
