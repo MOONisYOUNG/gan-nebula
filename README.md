@@ -39,7 +39,7 @@
 * TensorFlow는 정적 그래프를 사용한다는 태생적 특징 때문에 GAN 학습에 있어서 불리한 점이 있음. 반면에 Pytorch는 동적 그래프를 사용한다는 특성 때문에 GAN 학습 시에 유리한 점이 존재함.
 * 정적 그래프는 미리 모델 형태를 선언하는 방식이기 때문에 trainable 여부를 중간에 바꿀 수 없음. Pytorch는 모델 학습할 때에도 자유롭게 trainable 여부를 바꿀 수 있기 때문에 GAN을 유동적으로 성장시킬 수 있음.
 * TensorFlow(+Keras)에서의 GAN 학습 방식 : 모델 형태를 미리 정의해야 하기 때문에 Generator만 학습시키겠다고 선언함.
-* Pytorch에서의 GAN 학습 방식 : 유동적인 특성을 살려서 'Discriminator만 학습 → Gnenerator만 학습 방식'을 epochs 횟수 동안 무한 반복함.
+* Pytorch에서의 GAN 학습 방식 : 유동적인 특성을 살려서 'Discriminator만 학습 → Gnenerator만 학습' 방식을 epochs 횟수 동안 무한 반복함.
 * TensorFlow(+Keras)는 위조지폐범만 똑똑해지는 것을 목적으로 했지만, Pytorch는 경찰과 위조지폐범 모두 똑똑해지는 방식이기 때문에 결과적으로 더 똑똑한 위조지폐범이 탄생 가능함.
 * 요약 : 기본적으로 GAN은 경합 방식을 채택했기 때문에, 유동적으로 모델 형태를 변형할 수 있는 Pytorch가 더 유리하다!
 
