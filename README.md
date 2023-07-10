@@ -32,11 +32,12 @@
 * 얼굴 등의 복잡한 이미지를 적용한 코드는, 학습 데이터와 진짜 데이터를 합친 후에 노이즈를 넣어서 train시켰음. (100% 랜덤 노이즈보다는 해당 방식이 더 합리적으로 학습 가능하기 때문으로 보임. 이미지 데이터에는 단서를 주고, 레이블 데이터의 진위 관계는 흐림으로써 학습 효과를 높이는 듯...)
 
 ## 🧷 참고 자료
-* MNIST GAN 코드 자료 참고 : 모두의 딥러닝 (조태호 지음, 길벗 출판사) 
-* 얼굴 생성 GAN 코드 참고 : https://velog.io/@wo7864/DCGAN-%EC%BD%94%EB%93%9C%EB%A5%BC-%ED%86%B5%ED%95%9C-%EC%9D%B4%ED%95%B4
-* Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks 논문 : https://arxiv.org/abs/1511.06434
-* Generative Adversarial Networks 논문 : https://arxiv.org/abs/1406.2661 
+* MNIST GAN 코드 자료 참고 : [모두의 딥러닝 2판 (조태호 지음, 길벗 출판사)](https://github.com/gilbutITbook/080228/blob/master/deeplearning/run_project/20_GAN.ipynb) 
+* 얼굴 생성 GAN 코드 자료 참고 : [Deep Learning with Python, Second Edition (François Chollet 지음)](https://github.com/fchollet/deep-learning-with-python-notebooks/blob/master/chapter08_intro-to-dl-for-computer-vision.ipynb)
+* [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks 논문](https://arxiv.org/abs/1511.06434)
+* [Generative Adversarial Networks 논문](https://arxiv.org/abs/1406.2661)
 
 ## ✔️ 차후 할 일
 * DCGAN 발전 형태 논문 읽기 및 구현하기
+* Discriminator 자리에 ResNet 등의 모델 넣어보기
 * Pytorch로 GAN 구현하기
