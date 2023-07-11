@@ -34,7 +34,7 @@
 * 얼굴 등의 복잡한 이미지를 적용한 코드는, 학습 데이터와 진짜 데이터를 합친 후에 노이즈를 넣어서 train시켰음. (100% 랜덤 노이즈보다는 해당 방식이 더 합리적으로 학습 가능하기 때문으로 보임. 이미지 데이터에는 단서를 주고, 레이블 데이터의 진위 관계는 흐림으로써 학습 효과를 높이는 듯...)
 
 ## 🔹 Pytorch 최종 결과 (성공 예시)
-* 'torch_results'에서 확인 가능
+* 'torch_results 폴더'에서 확인 가능
 * TensorFlow 2.0(+Keras)로 낸 결과보다 성과가 좋음.
 ![gan_nebula099](https://github.com/MOONisYOUNG/GAN_Nebula/assets/87643414/dcd5e63c-1f19-471a-b18c-1b3560ffa6f8)
 
