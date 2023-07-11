@@ -25,7 +25,7 @@
 ## 🔹 TensorFlow 2.0 (+Keras) 최종 결과
 * 'tf_results 폴더'에서 확인 가능
 * PyTorch로 낸 결과보다 성능이 떨어짐.
-![gan_nebula059](https://github.com/MOONisYOUNG/GAN_Nebula/assets/87643414/d5b99c89-b42e-42bb-abcd-e404a8c27c1f)=
+![gan_nebula059](https://github.com/MOONisYOUNG/GAN_Nebula/assets/87643414/d5b99c89-b42e-42bb-abcd-e404a8c27c1f)
 
 ## 🙈 TensorFlow 2.0(+Keras) 프로젝트 난관 극복 방식
 * 기존 흑백 MNIST 코드를 변형해서 성운 이미지를 생성하면 이상한 이미지(명백한 실패 case)를 생성했음.
