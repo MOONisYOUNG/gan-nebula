@@ -23,16 +23,20 @@
 <img src="https://github.com/MOONisYOUNG/GAN_Nebula/assets/87643414/013a1d2f-3748-4223-bcaf-5a459fd883f0" width="64" height="64"/>
 
 ## 🔹 TensorFlow 2.0 (+Keras) 최종 결과
-![image](https://github.com/MOONisYOUNG/GAN_Nebula/assets/87643414/b003663a-73ce-4e4b-8018-9cd01b572000)
+* 'tf_results 폴더'에서 확인 가능
+* PyTorch로 낸 결과보다 성능이 떨어짐.
+![gan_nebula059](https://github.com/MOONisYOUNG/GAN_Nebula/assets/87643414/d5b99c89-b42e-42bb-abcd-e404a8c27c1f)=
 
-## 🙈 TensorFlow 2.0 (+Keras) 프로젝트 난관 극복 방식
+## 🙈 TensorFlow 2.0(+Keras) 프로젝트 난관 극복 방식
 * 기존 흑백 MNIST 코드를 변형해서 성운 이미지를 생성하면 이상한 이미지(명백한 실패 case)를 생성했음.
 ![image](https://github.com/MOONisYOUNG/GAN_Nebula/assets/87643414/b7518747-96ca-4a4d-a12c-8b7f0190919e)
 * 위와 같은 현상을 해결하기 위해서 MNIST보다 복잡한 이미지(ex. 얼굴 등)를 적용한 코드 예제를 찾게 되었음.
 * 얼굴 등의 복잡한 이미지를 적용한 코드는, 학습 데이터와 진짜 데이터를 합친 후에 노이즈를 넣어서 train시켰음. (100% 랜덤 노이즈보다는 해당 방식이 더 합리적으로 학습 가능하기 때문으로 보임. 이미지 데이터에는 단서를 주고, 레이블 데이터의 진위 관계는 흐림으로써 학습 효과를 높이는 듯...)
 
 ## 🔹 Pytorch 최종 결과 (성공 예시)
-![image](https://github.com/MOONisYOUNG/Pytorch_WikiDocs/assets/87643414/c3c13c8f-a932-4f22-b4ec-1f19ebf70289)
+* 'torch_results'에서 확인 가능
+* TensorFlow 2.0(+Keras)로 낸 결과보다 성과가 좋음.
+![gan_nebula099](https://github.com/MOONisYOUNG/GAN_Nebula/assets/87643414/dcd5e63c-1f19-471a-b18c-1b3560ffa6f8)
 
 ## ✏️ 결론
 * GAN을 활용할 때에는 'TensorFlow 2.0(+Keras)'를 사용하는 것보다 'Pytorch'를 사용하는 것이 더 좋다!
