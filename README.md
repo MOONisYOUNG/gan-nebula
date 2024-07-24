@@ -40,7 +40,7 @@
 
 ## ✏️ 결론
 * GAN을 활용할 때에는 'TensorFlow 2.0(+Keras)'를 사용하는 것보다 'Pytorch'를 사용하는 것이 더 좋다!
-* TensorFlow 2.0은 정적 그래프를 사용한다는 태생적 특징 때문에 GAN 학습에 있어서 불리한 점이 있음. 반면에 Pytorch는 동적 그래프를 사용한다는 특성 때문에 GAN 학습 시에 유리한 점이 존재함. (단, TensorFlow 사용 시에 tf.GradientTape를 이용하면 문제를 개선할 수 있음. 문제가 발생한 Tensoflow 코드들은 tf.GradinetTape를 적용하지 않은 버전임.)
+* TensorFlow 2.0은 정적 그래프를 사용한다는 태생적 특징 때문에 GAN 학습에 있어서 불리한 점이 있음. 반면에 Pytorch는 동적 그래프를 사용한다는 특성 때문에 GAN 학습 시에 유리한 점이 존재함. (TensorFlow를 사용하여 복잡하고 섬세한 이미지를 안정적으로 생성하고 싶을 경우, 사전 훈련된 GAN 모델을 베이스로 사용하는 것이 좋음.)
 * 정적 그래프는 미리 모델 형태를 선언하는 방식이기 때문에 trainable 여부를 중간에 바꿀 수 없음. Pytorch는 모델 학습할 때에도 자유롭게 trainable 여부를 바꿀 수 있기 때문에 GAN을 유동적으로 성장시킬 수 있음.
 * 'TensorFlow 2.0(+Keras)'에서의 GAN 학습 방식 : 모델 형태를 미리 정의해야 하기 때문에 Generator만 학습시키겠다고 선언함.
 * 'Pytorch'에서의 GAN 학습 방식 : 유동적인 특성을 살려서 'Discriminator만 학습 → Gnenerator만 학습' 방식을 epochs 횟수 동안 반복함.
